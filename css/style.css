@@ -1,0 +1,153 @@
+/************ TAGS SELECTORS ************/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.5rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #11999E;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #0d777a;
+}
+
+hr {
+    border: 0;
+    width: 8%;
+    border-top: 8px dotted #c9c9c9;
+    margin: 80px auto;
+}
+
+
+/************ CLASS SELECTORS ************/
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 10%;
+}
+
+.middle-container {
+    margin-bottom: 60px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 20%;
+    bottom: 60%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 20%;
+    top: 8%;
+}
+
+.sub {
+    text-decoration: underline;
+}
+
+.skill-row {
+    /* display: inline-block; */
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.web-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.photo-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile {
+    margin: 50px auto;
+}
+
+.profile-img {
+    width: 15%;
+}
+
+.contact-me h3 {
+    margin: 50px auto;
+}
+
+.contact-me p {
+    margin: 50px auto;
+}
+
+.btn {
+    background-color: #66bfbf;
+    border-radius: 13px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 20px 35px;
+    text-decoration: none;
+    text-shadow: 0px 1px 5px #047070;
+}
+
+.btn:hover {
+    background-color: #359999;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.footer-link {
+    margin: auto 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom-container a:hover {
+    color: #EAF6F6;
+}
+
+.bottom-container p {
+    margin: 20px 0 0 0;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding-top: 20px;
+}
+
+/************ ID SELECTORS ************/

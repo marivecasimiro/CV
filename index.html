@@ -1,99 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="description" content="Free Web tutorials" />
-  <!--Es la descripcion que se ve en una busqueda de google-->
-  <meta name="keywords" content="HTML,CSS,JavaScript" />
-  <meta name="author" content="Marive Casimiro" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marive Personal's Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marive Casimiro Gouveia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans&family=Sacramento&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="img/marive.png" alt="Marive Casimiro Photo"></td>
-      <td>
-        <h1>Marive Casimiro Gouveia</h1>
-        <p>
-          <em>lorem ipsum <strong>lorem</strong>
-            ipsum lorem <strong>ipsum lorem </strong>ipsum</em>
-        </p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <!-- educacion -->
-  <h3>Educación</h3>
-  <ul>
-    <li>Lorem</li>
-    <li>Ipsum</li>
-  </ul>
-  <hr>
-  <!-- trabajos -->
-  <h3>Trabajos</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Fecha</th>
-        <th>Contenido</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2010-2011</td>
-        <td>Lorem</td>
-      </tr>
-      <tr>
-        <td>2018</td>
-        <td>Lorem Ipsum</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <!-- hobbies -->
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Lorem</li>
-    <li>Ipsum</li>
-  </ol>
-  <hr>
-  <!-- skills -->
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>HTML</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>JS</td>
-      <td>⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <!-- contacto -->
-  <h3>Contactame</h3>
-  <p>Dirección</p>
-  <p>teléfono</p>
-  <form action="mailto:marivecasimiro@hotmail.com" method="POST" enctype="text/plain">
-    <label>Nombre y Apellido:</label>
-    <input name="Nombre-y-Apellido" type="text">
-    <br>
-    <label>Email:</label>
-    <input name="Email" type="Email">
-    <br>
-    <label>Tu Mensaje:</label>
-    <br>
-    <textarea name="Mensaje" cols="30" rows="10"></textarea>
-    <br>
-    <input type="submit">
-  </form>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Marive</h1>
+        <h2>a <span class="sub">web de</span>signer</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profile-img" src="images/marive.png" alt="Profile-Picture">
+            <h2>Hello.</h2>
+            <p>I'm a web designer. From Venezuela, now living in Portugal. 23 years old.
+            </p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="web-img" src="images/webdesign.png" alt="Programmer">
+                <h3>Web Designer</h3>
+                <p>I studied Informatics Engineering at the Alejandro de Humboldt University, located in Valencia
+                    Venezuela. I have done a variety of presential and online courses to increase my knowledge and feed
+                    my passion for programming and web design.</p>
+            </div>
+            <div class="skill-row">
+                <img class="photo-img" src="images/camera.png" alt="Skill2">
+                <h3>Photography </h3>
+                <p>One of my great passions is photography. I love taking pictures of landscapes and capturing moments
+                    to make them unforgettable. If I don't bring my camera, my phone becomes my partner.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Web design and photography are a great combination, right?</h3>
+            <p>If you need anything from me, you can contact me</p>
+            <a class="btn" href="mailto:marivecasimiro@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/marive-casimiro/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/marive_casimiro">Twitter</a>
+        <a class="footer-link" href="https://www.facebook.com/marive.casimiro">Facebook</a>
+        <p>© 2020 Marive Casimiro.</p>
+    </div>
 </body>
 
 </html>
